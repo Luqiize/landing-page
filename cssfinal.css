@@ -19,6 +19,17 @@ a {
     color: #e5e7eb;
 }
 
+a:hover {
+    color: #3882f6;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
 .logo {
     color: #f9faf8
 }
@@ -28,11 +39,9 @@ a {
 }
 
 nav {
-    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
 }
 
 ul {
@@ -47,7 +56,6 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
 }
 
 h1 {
