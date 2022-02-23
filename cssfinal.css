@@ -31,17 +31,12 @@ header {
 }
 
 .logo {
-    color: #f9faf8
+    color: #f9faf8;
+    margin: 30px auto;
 }
 
 .nav-link {
     font-size: 18px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 ul {
@@ -49,6 +44,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     gap: 18px;
+    margin: 30px auto;
 }
 
 .hero {
@@ -56,27 +52,29 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 60px 0;
 }
 
 h1 {
     font-size: 48px;
     color: #f9faf8;
+    padding-right: 60px;
 }
 
 .hero-text {
     font-size: 18px;
     color:#e5e7eb;
+    padding-right: 60px;
 }
 
 .image {
     background-color: gray;
     height: 300px;
-    width: 900px;
+    width: 700px;
 }
 
 .signup-button {
     background-color: #3882f6;
-    margin-left: auto;
     padding: 6px 24px;
     border: none;
     color: white;
@@ -84,13 +82,21 @@ h1 {
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    margin-top: 10px
+    margin: 10px auto
 }
 
-#wrapper {
+.wrapper {
     width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content:space-between;
     align-items: center;
+}
+
+.wrapper-hero {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
 }
