@@ -89,14 +89,39 @@ h1 {
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
 .wrapper-hero {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content:space-between;
     align-items: flex-start;
+}
+
+.square {
+    border-radius: 16px;
+    border: 2px solid #3882f6;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 16px auto;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin: 50px 0;
+}
+
+.info {
+    max-width: 300px;
+    text-align: center;
+}
+
+.wrapper-info {
+    padding: 0 50px;
+}
+
+.info-section {
+    text-align: center;
 }
