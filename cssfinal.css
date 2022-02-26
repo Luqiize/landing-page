@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,900&display=swap");
 
 * {
     margin: 0;
@@ -124,4 +124,40 @@ h1 {
 
 .info-section {
     text-align: center;
+}
+
+.text {
+    margin-bottom: 30px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.wrapper-quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 940px;
+}
+
+.quote {
+    margin-top: 80px;
+    padding: auto;
+}
+
+.quote p {
+    padding: 0px 15px 0px 0px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    padding-right: 80px;
+    margin-bottom: 80px;
 }
